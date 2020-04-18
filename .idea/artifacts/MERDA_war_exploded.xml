@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MERDA:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MERDA_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MERDA/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MERDA" />
+          <element id="library" level="application" name="apache-tomcat-9.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="lib" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
